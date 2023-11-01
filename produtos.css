@@ -4,6 +4,7 @@ header{
 }
 
 .caixa{
+    position: relative;
     width: 90px;
     margin: 0 auto;
 }
