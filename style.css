@@ -52,3 +52,45 @@ ul{
 .imagembeneficios{
     width: 50%
 }
+
+
+.caixa{
+    position: relative
+}
+.caixa{
+    width: 940px;
+    margin: 0 auto;
+}
+
+nav {
+    position: absolute
+}
+
+nav{
+    top: 110px 
+}
+
+nav{
+    right: 0;
+}
+
+nav li {
+    display: inline
+}
+
+nav li {
+    margin: 0 0 0 15px;
+}
+
+nav a {
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+    color: #C78C19
+}
