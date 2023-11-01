@@ -42,7 +42,7 @@ em strong{
     padding: 20px
 }
 
-ul{
+.servicos{
     display: inline-block;
     vertical-align: top;
     width: 20%;
@@ -53,6 +53,7 @@ ul{
     width: 50%
 }
 
+}
 
 .caixa{
     position: relative
