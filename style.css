@@ -1,58 +1,7 @@
-#banner{
-
-    width: 100%
+header {
+    background: #BBBBBB;
+    padding: 20px 0;
 }
-
-.principal{
-    background: #CCCCCCCC
-}
-
-.principal{
-    padding: 30px
-}
-
-.titulo-principal{
-  padding-left: 20px  
-}
-.titulo-centralizado{
-    text-align: center
-}
-
-p{
-    text-align:center;
-}
-
-#missão{
-    font-size: 20px
-}
-
-em strong{
-    color:red
-}
-
-.itens{
-    font-style: italic
-}
-.benefícios{
-    background: #FFFFFF
-    
-}
-
-.benefícios{
-    padding: 20px
-}
-
-.servicos{
-    display: inline-block;
-    vertical-align: top;
-    width: 20%;
-    margin-right: 15%;
-}
-
-.imagembeneficios{
-    width: 50%
-}
-
 
 .caixa{
     position: relative
@@ -67,11 +16,11 @@ nav {
 }
 
 nav{
-    top: 15px 
+    top: 110px 
 }
 
 nav{
-    right: 50px;
+    right: 0;
 }
 
 nav li {
@@ -93,4 +42,64 @@ nav a {
 nav a:hover {
     text-decoration: underline;
     color: #C78C19
+}
+
+
+.produtos {
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+
+.produtos li {
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #000000;
+    box-sizing: border-box;
+    padding: 30px 20px;
+    margin: 0 1.5%;
+    vertical-align: top;
+    width: 30%;
+    text-align: center;
+    display: inline-block
+}
+
+.produtos li:hover {
+    border-color: #C78C19;
+}
+
+.produtos li:active {
+    border-color: #088C19;
+}
+
+.produtos li:hover h2 {
+    font-size: 34px;
+}
+
+.produtos h2 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.produto-descricao {
+    font-size: 18px;
+}
+
+.produto-preco {
+    margin-top: 10px;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+footer {
+    padding: 40px 0;
+    text-align: center;
+    background: url("bg.jpg")
+}
+
+.copyright {
+	color: #FFFFFF;
+	font-size: 13px;
+	margin: 20px 0 0;
 }
